@@ -224,4 +224,4 @@ public class ZiDongLeiZhuan{
 - 浮点型不存在这种情况，因为在定义 float 类型时必须在数字后面跟上 F 或者 f。
 
 ###### 6.特殊的转义字符序列
-![image](./imgs/特殊转义字符.png)
+![image](./imgs/a.png)
