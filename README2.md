@@ -17,3 +17,22 @@ cd
 
 
 ```
+
+### 二. ipconfig：查看ip配置
+
+```
+
+ ipconfig
+ ipconfig/all // 更多IP配置
+
+```
+
+### 三. ping:[ ip地址/域名] - 看是否能访问服务器
+
+```
+
+ping www.baidu.com
+
+ping www.baidu.com -t // 检查网路是否稳定
+
+```

@@ -1,3 +1,4 @@
+package src.Test;
 public class Test {
     static boolean bool;
     static byte by;

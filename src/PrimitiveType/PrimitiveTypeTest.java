@@ -1,3 +1,4 @@
+package src.PrimitiveType;
 public class PrimitiveTypeTest {
     public static void main(String[] args) {
         // byte

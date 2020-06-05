@@ -1,4 +1,7 @@
-import java.io.*;
+
+package src.Employee;
+
+
 public class Employee{
     String name;
     int age;

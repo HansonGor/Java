@@ -1,5 +1,58 @@
 ## Java
 
+
+<!-- TOC -->
+
+- [Java](#java)
+    - [一. 环境下载](#一-环境下载)
+    - [二.环境变量配置](#二环境变量配置)
+    - [三. JAVA语法基础](#三-java语法基础)
+            - [(一) Hello World](#一-hello-world)
+            - [(二) 对象和类](#二-对象和类)
+                - [1. 源文件声明规则](#1-源文件声明规则)
+                - [2. Java包](#2-java包)
+                - [3. Import语句](#3-import语句)
+                - [4. 简单例子](#4-简单例子)
+            - [(三) 基本数据类型](#三-基本数据类型)
+                - [1. 数据类型：①内置数据类型；②引用数据类型](#1-数据类型①内置数据类型②引用数据类型)
+                - [2. 内置数据类型：](#2-内置数据类型)
+                - [3. 引用数据类型：](#3-引用数据类型)
+                - [4. 声明常量](#4-声明常量)
+                - [5. 类型转换](#5-类型转换)
+                - [6.特殊的转义字符序列](#6特殊的转义字符序列)
+            - [(四) 变量类型](#四-变量类型)
+        - [(五) 修饰符](#五-修饰符)
+            - [1. 访问修饰符](#1-访问修饰符)
+                - [1. 访问修饰符：](#1-访问修饰符)
+                - [2. 访问修饰符图片](#2-访问修饰符图片)
+                - [3. 访问教程类](#3-访问教程类)
+            - [2. 非访问修饰符](#2-非访问修饰符)
+                - [1. 非访问修饰符：](#1-非访问修饰符)
+                - [2. 非访问修饰符图片](#2-非访问修饰符图片)
+                - [3. 访问教程类](#3-访问教程类-1)
+        - [(六) 运算符](#六-运算符)
+            - [1. 教程类：](#1-教程类)
+            - [2. 运算符类型：](#2-运算符类型)
+                - [1. 算数运算符](#1-算数运算符)
+                - [2. 关系运算符](#2-关系运算符)
+                - [3. 位运算符](#3-位运算符)
+                - [4. 逻辑运算符](#4-逻辑运算符)
+                - [5. 赋值运算符](#5-赋值运算符)
+                - [6. 条件运算符](#6-条件运算符)
+                - [7. instanceof运算符](#7-instanceof运算符)
+                - [7. java运算符优先级](#7-java运算符优先级)
+        - [(七) 循环结构](#七-循环结构)
+            - [1. 教程类：](#1-教程类-1)
+            - [2. 循环类型与关键字：](#2-循环类型与关键字)
+                - [1. 循环类型](#1-循环类型)
+                - [2. 关键字](#2-关键字)
+        - [(八) 条件语句](#八-条件语句)
+            - [1. if - [else if] - [else]](#1-if---else-if---else)
+            - [2. switch - case](#2-switch---case)
+            - [3. 教程类：](#3-教程类)
+
+<!-- /TOC -->
+
 ### 一. 环境下载
 1. 安装JDK: https://www.oracle.com/java/technologies/javase-downloads.html
 2. 卸载JDK旧版本: https://www.oracle.com/java/technologies/javase-jdk14-downloads.html
@@ -58,7 +111,7 @@ java Puppy
 
 ````
 
-````
+
 
 ###### 1. 源文件声明规则
 - 一个源文件中只能有一个public类
@@ -225,3 +278,118 @@ public class ZiDongLeiZhuan{
 
 ###### 6.特殊的转义字符序列
 ![image](./imgs/a.png)
+
+
+
+##### (四) 变量类型
+````java
+
+public class Variable{
+    static int allClicks=0;    // 类变量
+ 
+    String str="hello world";  // 实例变量
+ 
+    public void method(){
+ 
+        int i =0;  // 局部变量
+ 
+    }
+}
+
+````
+
+#### (五) 修饰符
+
+##### 1. 访问修饰符
+
+###### 1. 访问修饰符：
+①：public - 公开
+②：private - 私有： 私有不能访问公有变量，只能访问私有变量
+③：protected - 受保护的：有点复杂，后面排坑
+④：defalult - 默认的: 同包能使用，不同包不能使用
+
+###### 2. 访问修饰符图片
+![callModifySymbols](./imgs/ModifySymbols.png)
+
+###### 3. 访问教程类
+[callModiFySymbols.java](./src/ModiFySymbols/ModiFySymbols.java)
+
+##### 2. 非访问修饰符
+
+###### 1. 非访问修饰符：
+①static - 不能被this调用，只能被实例化后调用
+②final - 常量
+③abstract - 抽象类
+④synchronized - 同一线程内访问
+⑤volatile - 强制放入缓存
+⑥transient - 序列化的对象包含被 transient 修饰的实例变量时，java 虚拟机(JVM)跳过该特定的变量
+
+###### 2. 非访问修饰符图片
+![uncallModifySymbols](./imgs/uncallModifySymbols.PNG)
+
+###### 3. 访问教程类
+[callModiFySymbols.java](./src/ModiFySymbols/ModiFySymbols.java)
+
+
+#### (六) 运算符
+
+##### 1. 教程类：
+[Operation.java](./src/Operation/Operation.java)
+
+##### 2. 运算符类型：
+
+###### 1. 算数运算符
+![operation1](./imgs/operation1.PNG)
+
+###### 2. 关系运算符
+![operation2](./imgs/operation2.PNG)
+
+###### 3. 位运算符
+![operation3](./imgs/operation3.PNG)
+
+###### 4. 逻辑运算符
+![operation4](./imgs/operation4.PNG)
+
+###### 5. 赋值运算符
+![operation5](./imgs/operation5.PNG)
+
+###### 6. 条件运算符
+![operation6](./imgs/operation6.PNG)
+
+###### 7. instanceof运算符
+![operation7](./imgs/operation7.PNG)
+
+###### 7. java运算符优先级
+![operation8](./imgs/operation8.PNG)
+
+
+#### (七) 循环结构
+
+##### 1. 教程类：
+[Circulation.java](./src/Circulation/Circulation.java)
+
+##### 2. 循环类型与关键字：
+
+###### 1. 循环类型
+类似js
+①while循环;
+②do...while循环;
+③for循环;
+④Java增强for循环;
+
+###### 2. 关键字
+①break;
+②continue; 
+③return;
+
+#### (八) 条件语句
+
+##### 1. if - [else if] - [else]
+类似js
+
+
+##### 2. switch - case
+类似js
+
+##### 3. 教程类：
+[Circulation.java](./src/Circulation/Circulation.java)
