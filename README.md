@@ -40,7 +40,7 @@
                 - [5. 赋值运算符](#5-赋值运算符)
                 - [6. 条件运算符](#6-条件运算符)
                 - [7. instanceof运算符](#7-instanceof运算符)
-                - [7. java运算符优先级](#7-java运算符优先级)
+                - [8. java运算符优先级](#8-java运算符优先级)
         - [(七) 循环结构](#七-循环结构)
             - [1. 教程类：](#1-教程类-1)
             - [2. 循环类型与关键字：](#2-循环类型与关键字)
@@ -50,6 +50,16 @@
             - [1. if - [else if] - [else]](#1-if---else-if---else)
             - [2. switch - case](#2-switch---case)
             - [3. 教程类：](#3-教程类)
+        - [(九) Maths&Number](#九-mathsnumber)
+            - [1. API](#1-api)
+            - [2.教程类](#2教程类)
+        - [(九) Character](#九-character)
+            - [1. API](#1-api-1)
+            - [2.Character转义序列](#2character转义序列)
+            - [3.教程类](#3教程类)
+        - [(十) String](#十-string)
+            - [1. API](#1-api-2)
+            - [2.教程类](#2教程类-1)
 
 <!-- /TOC -->
 
@@ -361,7 +371,7 @@ public class Variable{
 ###### 7. instanceof运算符
 ![operation7](./imgs/operation7.PNG)
 
-###### 7. java运算符优先级
+###### 8. java运算符优先级
 ![operation8](./imgs/operation8.PNG)
 
 
@@ -395,3 +405,32 @@ public class Variable{
 
 ##### 3. 教程类：
 [Circulation.java](./src/Circulation/Circulation.java)
+
+
+#### (九) Maths&Number
+
+##### 1. API
+[Maths&Number](https://www.runoob.com/java/java-number.html)
+
+##### 2.教程类
+[MathsNumber.java](./src/MathsNumber/MathsNumber.java)
+
+
+#### (九) Character
+
+##### 1. API
+[Maths&Number](https://www.runoob.com/java/java-character.html)
+
+##### 2.Character转义序列
+![转义序列](./imgs/r.PNG)
+
+##### 3.教程类
+[Character.java](./src/Character/Character.java)
+
+#### (十) String
+
+##### 1. API
+[API](https://www.runoob.com/java/java-string.html)
+
+##### 2.教程类
+[Strings.java](./src/Strings/Strings.java)
