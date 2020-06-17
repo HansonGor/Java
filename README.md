@@ -434,3 +434,12 @@ public class Variable{
 
 ##### 2.教程类
 [Strings.java](./src/Strings/Strings.java)
+
+
+#### (十一) StringBuffer
+
+##### 1. API
+[API](https://www.runoob.com/java/java-stringbuffer.html)
+
+##### 2.教程类
+[StringBuffers.java](./src/StringBuffers/StringBuffers.java)
