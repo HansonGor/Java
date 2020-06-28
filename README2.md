@@ -36,3 +36,32 @@ ping www.baidu.com
 ping www.baidu.com -t // 检查网路是否稳定
 
 ```
+
+### 四. java介绍
+
+#### 1. javaEE, javaSE,javaME关系
+- 图1
+![java三大块关系](./imgs2/Java三者关系.PNG) 
+<br/>
+
+- 图2
+![java三大块关系2](./imgs2/Java三者关系2.PNG) 
+
+#### 2. java语言特性
+- 简单性
+- 面向对象 
+- 健壮性
+- java完全/完美支持多线程并发
+- 可移植性/跨平台（一次编写，到处运行，因为JVM,Java虚拟机，底层C++，支持多平台）
+
+#### 3. JVM-Java虚拟机
+![java虚拟机](./imgs2/27.Java虚拟机.PNG)
+
+
+#### 4. JDK、JRE、JVM三者之间的关系
+![JDK、JRE、JVM三者关系](./imgs2/28.JDK、JRE、JVM.PNG)
+
+#### 5. java编译与执行过程（注：字节码不是二进制）
+![30.java编译与执行过程.PNG](./imgs2/30.java编译与执行过程.PNG)
+
+30

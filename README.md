@@ -443,3 +443,12 @@ public class Variable{
 
 ##### 2.教程类
 [StringBuffers.java](./src/StringBuffers/StringBuffers.java)
+
+
+#### (十二) Arrays
+
+##### 1. API
+[API](https://www.runoob.com/java/java-array.html)
+
+##### 2.教程类
+[Arrayss.java](./src/Arrayss/Arrayss.java)
