@@ -62,6 +62,23 @@ ping www.baidu.com -t // 检查网路是否稳定
 ![JDK、JRE、JVM三者关系](./imgs2/28.JDK、JRE、JVM.PNG)
 
 #### 5. java编译与执行过程（注：字节码不是二进制）
+- 1
+
 ![30.java编译与执行过程.PNG](./imgs2/30.java编译与执行过程.PNG)
 
-30
+<br />
+<br />
+
+- 2
+
+![30.java编译与执行过程2.PNG](./imgs2/30.java编译与执行过程2.PNG)
+
+
+### 五.环境变量配置
+参考文件——见环境变量配置：[环境变量配置](./README.md)
+
+
+### 六.缩进
+向左缩进：Shift + Tab
+向右缩进：Tab
+
